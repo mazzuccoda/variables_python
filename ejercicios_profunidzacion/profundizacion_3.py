@@ -38,3 +38,8 @@ Cualquier duda con estos métodos pueden consultarla por el campus
 
 print('Ahora si! buena suerte')
 # Empezar aquí la resolución del ejercicio
+print("ingrese su nombre completo:")
+nombre_completo=str(input())
+print("El nombre con todo mayusculas usando el metodo UPPER es:",nombre_completo.upper())
+print("El nombre con todo minisculas usando el metodo lo lower es:",nombre_completo.lower())
+print("El nombre con la primera mayuscula usando el metodo Capitalize es:",nombre_completo.capitalize())

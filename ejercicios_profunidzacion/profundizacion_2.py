@@ -31,5 +31,21 @@ Finalmente el programa debe imprimir dos líneas de texto por separado
   entienda de que se está hablando.
 '''
 
-print('Sistema de ingreso de datos')
+
 # Empezar aquí la resolución del ejercicio
+print("###################################")
+print('Sistema de ingreso de datos')
+print("###################################")
+print("Ingrese su Nombre Completo")
+Nombre_completo = str(input())
+print ("Ingrese su DNI")
+Documento = str(input())
+print ("Ingrese su Edad")
+Edad = float(input())
+print ("Ingrese su Su Altura")
+Altura = float(input())
+
+print("###################################")
+print(Nombre_completo,Documento)
+print("###################################")
+print("El Sr/a,", Nombre_completo, "tiene",Edad,"años de edad","y tiene una altura de",Altura, "metros")
